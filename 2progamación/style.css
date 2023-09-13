@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    background-color: rgb(240, 225, 211);
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+ .menu img{
+    width: 100px;
+    padding-left: 20px;
+ }
+ 
+
+ a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    list-style: none;
+    
+ }
+
+.catalogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a:hover{
+   color: white;
+}
+
+
+
+.pote{
+    display: flex;
+    justify-content: space-evenly;
+
+   
+}
+.pote img{
+    width: 800px;
+    
+}
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    }
+
+.parrafo h1{
+    font-size: 50px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-decoration:double;
+}
+
+.box{
+    height: 215px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 225, 211);
+    margin-bottom: 28px;
+  }
+
+ .box :hover{
+    width: 115px;
+ } 
+.boxuno{
+    width: 90px;
+    display: block;
+    margin: 0;
+}
+
+.boxdos{
+    width: 80px;
+}
+
+.boxtres{
+    width: 80px;
+}
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+   justify-content: center;
+}
+
+.imagenuno{
+   width: 400px;
+
+}
+
+.imagendos{
+    width: 400px;
+}
+
+.imagentres{
+    width: 400px;
+}
+
+.imagencuatro{
+    width: 400px;
+   
+ }
+ 
+ .imagencinco{
+     width: 400px;
+ }
+ 
+ .imagenseis{
+     width: 400px;
+ }
+ 
+.abajo{
+    text-align: center;
+    margin-top: 70px; 
+    
+}
+ .boton{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    background-color: rgb(240, 225, 211);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 130px;
+    color: black;
+    text-decoration: none;
+    margin-top: 50px; 
+    margin-bottom: 100px;
+ }
+
+
+
+.boton :hover{
+    background-color: white;
+    border: 2px solid beige;
+    color: black;
+
+
+}
+
+ .footer{
+    background-color: rgb(240, 225, 211);
+    padding: 10px 0;
+ }
+  .footer img{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+   
+ @media (max-width:768px) {
+    header{
+        flex-direction: column;
+        background-color: rgb(240, 225, 211);
+        justify-content: space-between;
+        align-items: center;
+        height: 160px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+     .menu img{
+        width: 90px;
+        padding-left: 10px;
+        padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+     }
+    
+     a{
+        text-decoration: none;
+        color: black;
+        padding: 8px;
+        display: block;
+        list-style: none;
+        
+     }
+    
+    .catalogo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        padding-top: 2px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul a:hover{
+       color: white;
+    }
+    
+
+
+    .pote{
+        display: flex;
+        justify-content: space-evenly;
+    
+       
+    }
+    .pote img{
+        width: 420px;
+       
+        
+    }
+    .parrafo{
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+        }
+    
+    .parrafo h1{
+        font-size: 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        font-family: 'Libre Baskerville', serif;
+        color: black;
+        text-decoration:double;
+    }
+
+
+    .box{
+        height: 150px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(240, 225, 211);
+        margin-bottom: 28px;
+      }
+    
+     .box :hover{
+        width: 70px;
+     } 
+    .boxuno{
+        width: 60px;
+    }
+    
+    .boxdos{
+        width: 60px;
+    }
+    
+    .boxtres{
+        width: 60px;
+    }
+
+
+
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+       justify-content: center;
+    }
+    
+    .imagenuno{
+       width: 200px;
+    
+    }
+    
+    .imagendos{
+        width: 200px;
+    }
+    
+    .imagentres{
+        width: 200px;
+    }
+    
+    .imagencuatro{
+        width: 200px;
+       
+     }
+     
+     .imagencinco{
+         width: 200px;
+     }
+     
+     .imagenseis{
+         width: 200px;
+     }
+     
+
+     .abajo{
+        text-align: center;
+        margin-top: 70px; 
+        font-size: 13px;
+        
+    }
+     .boton{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        background-color: rgb(240, 225, 211);
+        border-radius: 10px;
+        padding: 15px 30px;
+        margin: 150px 200px;
+        color: black;
+        text-decoration: none;
+        margin-top: 50px; 
+        margin-bottom: 50px;
+     }
+    
+    
+    
+    .boton :hover{
+        background-color: white;
+        border: 2px solid beige;
+        color: black;
+    
+    
+    }
+    
+     .footer{
+        background-color: rgb(240, 225, 211);
+        padding: 10px 0;
+     }
+      .footer img{
+        width: 80px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+
+}
+ 
+
+
+
+
+
+@media (max-width:390px) {
+
+    header{
+        flex-direction: column;
+        background-color: rgb(240, 225, 211);
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+     .menu img{
+        width: 50px;
+        padding-left: 10px;
+        padding-top: 15px;
+        justify-content: center;
+        align-items: center;
+     }
+    
+     a{
+        text-decoration: none;
+        color: black;
+        padding: 8px;
+        display: block;
+        list-style: none;
+        font-size: 10px;
+        
+     }
+    
+    .catalogo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        padding-top: 2px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-weight: bold;
+        text-decoration: none;
+    
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul a:hover{
+       color: white;
+    }
+    
+
+
+    .pote{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+       justify-content: center;
+    
+       
+    }
+    .pote img{
+        width: 390px;
+       
+        
+    }
+    .parrafo{
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+        }
+    
+    .parrafo h1{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-family: 'Libre Baskerville', serif;
+        color: black;
+        text-decoration:double;
+    }
+
+
+    .box{
+        height: 90px;
+        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(240, 225, 211);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+     .box :hover{
+        width: 60px;
+     } 
+    .boxuno{
+        width: 40px;
+    }
+    
+    .boxdos{
+        width: 40px;
+    }
+    
+    .boxtres{
+        width: 40px;
+    }
+
+
+
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto auto ;
+        align-items: center;
+       justify-content: center;
+    }
+    
+    .imagenuno{
+       width: 150px;
+    
+    }
+    
+    .imagendos{
+        width: 150px;
+    }
+    
+    .imagentres{
+        width: 150px;
+    }
+    
+    .imagencuatro{
+        width: 150px;
+       
+     }
+     
+     .imagencinco{
+         width: 150px;
+     }
+     
+     .imagenseis{
+         width: 150px;
+     }
+     
+
+     .abajo{
+        text-align: center;
+        margin-top: 40px; 
+        font-size: 11px;
+        
+    }
+     .boton{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        background-color: rgb(240, 225, 211);
+        border-radius: 10px;
+        padding: 15px 30px;
+        margin: 300px 100px;
+        color: black;
+        text-decoration: none;
+        margin-top: 50px; 
+        margin-bottom: 50px;
+     }
+    
+    
+    
+    .boton :hover{
+        background-color: white;
+        border: 2px solid beige;
+        color: black;
+    
+    
+    }
+    
+     .footer{
+        background-color: rgb(240, 225, 211);
+        padding: 10x 0;
+     }
+      .footer img{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+
+
+
+
+
+
+}
+ 
